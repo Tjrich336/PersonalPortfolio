@@ -5,7 +5,7 @@
 }
 
 .skills__content {
-    background-color: var(--container-color);
+    background-color: rgb(28, 28, 28);;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem 2rem;
     border-radius: 1.25rem;
@@ -16,6 +16,7 @@
     font-weight: var(--font-medium);
     text-align: center;
     margin-bottom: var(--mb-1-5);
+    color: rgb(210, 63, 93);
 }
 
 .skills__box {
@@ -37,13 +38,14 @@
 
 .skills .bx-badge-check {
     font-size: 1rem;
-    color: var(--title-color);
+    color: white;
 }
 
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
+    color: white;
 }
 
 .skills__level {
