@@ -63,30 +63,33 @@
     background-color: #060606;
   }
   
-  .scroll-to-top {
-    position: fixed;
-    bottom: 45px;
-    right: 20px;
-    background-color: #353d45;
-    width: 35px;
-    height: 35px;
-    border-radius: 20%;
-    border: none;
-    cursor: pointer;
+  .home__scroll-up {
+    margin-top: 3rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    transition: background-color 0.2s;
+    flex-direction: column;
   }
 
-  .scroll-to-top:hover {
-    background-color: #060606;
+  .wheel {
+    animation: scroll 2s ease infinite;
   }
 
-  .arrow-up {
-    width: 0;
-    height: 5;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 15px solid #fff;
+  @keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(3.75rem);
+    }
+  }
+
+  .home__scroll-name- {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+  }
+
+  .home__scroll-arrow {
+    font-size: 1.25rem;
+    color: var(--title-color);
   }

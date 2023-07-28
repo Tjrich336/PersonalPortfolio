@@ -86,7 +86,9 @@
 }
 
 .home__scroll {
-    margin-left: 9.25rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .wheel {
