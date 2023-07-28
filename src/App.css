@@ -92,8 +92,8 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
-  color: var(--text-color);
+  background-color: #333;
+  color: white;
 }
 
 h1, h2, h3 {
@@ -128,18 +128,20 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: rgb(210, 63, 93) !important;
 }
 
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
+  color: rgb(210, 63, 93) !important;
 }
 
 .section__title,
 .section__subtitle {
   text-align: center;
+  color: rgb(210, 63, 93) !important;
 }
 
 /* ===================== LAYOUT ===================== */

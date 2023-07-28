@@ -4,6 +4,14 @@
     column-gap: 4rem;
 }
 
+.about__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
 .about__img {
     width: 325px;
     border-radius: 1.5rem;
@@ -17,7 +25,7 @@
 }
 
 .about__box {
-    background-color: var(--container-color);
+    background-color: rgb(28, 28, 28);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
@@ -26,13 +34,14 @@
 
 .about__icon {
     font-size: 1.5rem;
-    color: var(--title-color);
+    color: rgb(210, 63, 93);
     margin-bottom: var(--mb-0-5);
 }
 
 .about__title {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
+    color: rgb(210, 63, 93);
 }
 
 .about__subtitle {
@@ -40,8 +49,18 @@
 }
 
 .about__description {
-    padding: 0 4rem 0 0;
-    margin-bottom: var(--mb-2-5);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.button--flex-cv {
+    display: inline-flex;
+    background-color: rgb(28, 28, 28);
+    color: rgb(210, 63, 93);
+    justify-content: center;
+    
 }
 
 /* ===================== BREAKPOINTS ===================== */

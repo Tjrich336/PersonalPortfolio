@@ -20,15 +20,21 @@
 .home__social-icon {
     margin-left: 3rem;
     font-size: 1.25rem;
-    color: var(--title-color);
+    color: rgb(210, 63, 93);
 }
 
 .home__social-icon:hover {
     color: var(--title-color-dark);
 }
 
+.button--flex {
+    background-color: rgb(28, 28, 28);
+    color: rgb(210, 63, 93);
+}
+
 .home__title {
     font-size: xxx-large;
+    color: rgb(210, 63, 93);
     margin-bottom: var(--mb-0-25);
     display: inline-block;
     overflow: hidden;
@@ -63,7 +69,6 @@
     display: inline-block;
     width: 3px;
     height: 1em;
-    background-color: #333; /* Optional cursor styling */
     margin-left: 2px;
 }
 
@@ -73,6 +78,7 @@
     padding-left: 5.4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
+    color: rgb(210, 63, 93);
 }
 
 .home__subtitle::before {
@@ -80,7 +86,7 @@
     position: absolute;
     width: 70px;
     height: 1px;
-    background-color: var(--text-color);
+    background-color: rgb(210, 63, 93);;
     left: 0;
     top: 1rem;
 }
@@ -139,7 +145,7 @@
 }
 
 .home__scroll-name {
-    color: var(--title-color);
+    color: rgb(210, 63, 93);
     font-weight: var(--font-medium);
     margin-right: var(--mb--0-25);
     margin-left: 2px;
@@ -147,7 +153,6 @@
 
 .home__scroll-arrow {
     font-size: 1.25rem;
-    color: var(--title-color);
 }
 
 /* ===================== BREAKPOINTS ===================== */

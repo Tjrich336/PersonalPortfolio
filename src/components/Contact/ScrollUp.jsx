@@ -7,7 +7,7 @@ const ScrollUp = () => {
 
     return (
         <div className="home__scroll-up">
-            <a href="#home" className="home__scroll-button button--flex" onClick={handleButtonClick}>
+            <a href="#home" className="home__scroll-button" onClick={handleButtonClick}>
                 <svg
                 width="32px"
                 height="32px"
@@ -29,7 +29,7 @@ const ScrollUp = () => {
                   d="M123.359,79.775l0,72.843"
                   style={{
                     fill: "none",
-                    stroke: "var(--title-color)",
+                    stroke: "rgb(210, 63, 93)",
                     strokeWidth: "20px",
                     }}
                 ></path>
@@ -38,13 +38,13 @@ const ScrollUp = () => {
                   d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z"
                   style={{
                     fill: "none",
-                    stroke: "var(--title-color)",
+                    stroke: "rgb(210, 63, 93)",
                     strokeWidth: "20px",
                   }}
                 ></path>
                 </svg>
                 <span className="home__scroll-name">Scroll Up</span>
-                <i class="uil uil-arrow-up home__scroll-arrow"></i>
+                <i class="uil uil-arrow-up home__scroll-arrow" style={{color: 'rgb(210, 63, 93)'}}></i>
             </a>
         </div>
     );
