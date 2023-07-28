@@ -13,10 +13,10 @@ const Data = () => {
           {showName && <span className="animated-text">Trevor Richardson</span>}
         </h1>
             <h3 className="home__subtitle">Software Engineer</h3>
-            <p className="home__description">Undergraduate Student at the University of North Carolina at Charlotte: 
-            B.S Computer Science. </p>
+            <p className="home__description">Undergraduate student at the University of North Carolina at Charlotte: 
+            B.S Computer Science, with a concentration in Software Engineering</p>
 
-             <a href="#contact" className="button button--flex">
+             <a href="#contact" className="button button--flex-hi">
                 Say Hello
                 <svg
                   class="button__icon"
