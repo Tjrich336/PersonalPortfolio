@@ -34,7 +34,7 @@ const Contact = () => {
       <div>
         <h2 className="call-to-action">Reach Out!</h2>
         <form ref={form} onSubmit={sendEmail} className="form">
-          <input
+          <input 
             type="text"
             className="userName"
             placeholder="Full Name"
