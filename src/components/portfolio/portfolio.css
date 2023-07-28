@@ -5,13 +5,14 @@
 }
 
 .project__content {
-    background-color: var(--container-color);
+    background-color: rgb(28,28,28);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem 2rem;
     border-radius: 1.25rem;
 }
 
 .project__title {
+    color: rgb(210,63,93);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     text-align: center;
@@ -36,6 +37,7 @@
 }
 
 .project__name {
+    color: white;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
@@ -43,6 +45,7 @@
 }
 
 .project__description {
+    color: white;
     font-size: var(--tiny-font-size);
     font-weight: var(--font-medium);
     display: flex;
