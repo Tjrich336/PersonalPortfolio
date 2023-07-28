@@ -11,9 +11,9 @@ const Project1 = () => {
             <div className="project__group">
                 <div className="project__data">
                 <div>
-                    <h3 className="project__name">Description:</h3>
+                    <h3 className="project__name">Backend (mySQL)</h3>
                     <span className="project__description">
-                      A MySQL database that tracks employee personal and demographic information.
+                    MySQL database that manages employee demographic and personal information, enabling streamlined administrative processes.
                     </span>
                 </div>
 

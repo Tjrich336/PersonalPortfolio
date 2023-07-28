@@ -7,6 +7,7 @@
     padding-top: 5.5rem;
     column-gap: 2rem;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 .home__social {
@@ -16,6 +17,7 @@
 }
 
 .home__social-icon {
+    margin-left: 3rem;
     font-size: 1.25rem;
     color: var(--title-color);
 }
@@ -25,14 +27,43 @@
 }
 
 .home__title {
-    font-size: var(--big-font-size);
+    font-size: xxx-large;
     margin-bottom: var(--mb-0-25);
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
 }
 
-.home__hand {
-    width: 38px;
-    height: 38px;
-    margin-left: 0.4rem;
+.animated-text::after {
+    content: "|";
+    animation: cursor-blink 1.5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes cursor-blink {
+    from, to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+.cursor {
+    display: inline-block;
+    width: 3px;
+    height: 1em;
+    background-color: #333; /* Optional cursor styling */
+    margin-left: 2px;
 }
 
 .home__subtitle {
@@ -89,6 +120,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 3rem;
 }
 
 .wheel {
@@ -124,11 +156,6 @@
     .home__container {
         grid-template-columns: 100px repeat(2, 1fr);
         column-gap: 1.25rem;
-    }
-
-    .home__hand {
-        width: 26px;
-        height: 26px;
     }
 
     .home__subtitle {
@@ -189,11 +216,6 @@
     .home__img {
         width: 180px;
         height: 180px;
-    }
-
-    .home__hand {
-        width: 22px;
-        height: 22px;
     }
   }
 

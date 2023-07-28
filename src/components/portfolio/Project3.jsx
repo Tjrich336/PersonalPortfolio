@@ -4,7 +4,7 @@ import EmployeeData from "../../assets/EmployeeData.png";
 const Project3 = () => {
   return (
     <div className="project__content">
-        <h3 className="project__title">IDK YET</h3>
+        <h3 className="project__title">Book Store</h3>
         <img src={EmployeeData} alt="" className="project__img" />
 
         <div className="project__box">
@@ -12,7 +12,7 @@ const Project3 = () => {
                 <div className="project__data">
 
                 <div>
-                    <h3 className="project__name">Description:</h3>
+                    <h3 className="project__name">Backend (Java)</h3>
                     <span className="project__description">
                         BLAHHHHHH AFJ;LAJFLAJLJFJALJFJA LFA LFJALJFLJALJFAJLFA
                     </span>

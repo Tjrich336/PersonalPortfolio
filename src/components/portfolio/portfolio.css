@@ -39,11 +39,14 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
+    text-align: center;
 }
 
 .project__description {
     font-size: var(--tiny-font-size);
     font-weight: var(--font-medium);
+    display: flex;
+    text-align: center;
 }
 
 .project__img {
