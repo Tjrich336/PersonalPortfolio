@@ -4,7 +4,7 @@ import EmployeeData from "../../assets/EmployeeData.png";
 const Project3 = () => {
   return (
     <div className="project__content">
-        <h3 className="project__title">Book Store</h3>
+        <h3 className="project__title">Retail Store</h3>
         <img src={EmployeeData} alt="" className="project__img" />
 
         <div className="project__box">
@@ -14,7 +14,7 @@ const Project3 = () => {
                 <div>
                     <h3 className="project__name">Backend (Java)</h3>
                     <span className="project__description">
-                        BLAHHHHHH AFJ;LAJFLAJLJFJALJFJA LFA LFJALJFLJALJFAJLFA
+                    Retail Store that allows the user to simulate a onliine shopping experience through a backend application, acting as both a UI (User) and a OI (Owner) Interface.
                     </span>
                 </div>
 
