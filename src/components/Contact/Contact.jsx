@@ -1,9 +1,10 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import './contact.css';
 
 const Contact = () => {
   const form = useRef();
+  const [showButton, setShowButton] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -23,6 +24,25 @@ const Contact = () => {
 
     e.target.reset();
   };
+
+  const handleButtonClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <section className="contact section" id="contact">
@@ -57,6 +77,11 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      {showButton && (
+        <button className="scroll-to-top" onClick={handleButtonClick}>
+          <div className="arrow-up"></div>
+        </button>
+      )}
     </section>
   );
 };
