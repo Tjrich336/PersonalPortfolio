@@ -1,5 +1,5 @@
 import React from 'react';
-import EmployeeData from "../../assets/EmployeeData.png";
+import EmployeeData from "../../assets/HealthTrack.jpeg";
 
 const Project2 = () => {
   return (

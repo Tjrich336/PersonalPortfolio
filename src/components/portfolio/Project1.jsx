@@ -1,11 +1,11 @@
 import React from 'react';
-import EmployeeData from "../../assets/EmployeeData.png";
+import EmployeeData from "../../assets/DataBlock.jpeg";
 
 const Project1 = () => {
   return (
     <div className="project__content">
         <h3 className="project__title">Employee Database</h3>
-        <img src={EmployeeData} alt="" className="project__img" />
+        <img src={EmployeeData} alt="" className="project__img-data" />
 
         <div className="project__box">
             <div className="project__group">

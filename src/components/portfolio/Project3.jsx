@@ -1,5 +1,5 @@
 import React from 'react';
-import EmployeeData from "../../assets/EmployeeData.png";
+import EmployeeData from "../../assets/OnlineShop.png";
 
 const Project3 = () => {
   return (
@@ -14,7 +14,7 @@ const Project3 = () => {
                 <div>
                     <h3 className="project__name">Backend (Java)</h3>
                     <span className="project__description">
-                    Retail Store that allows the user to simulate a onliine shopping experience through a backend application, acting as both a UI (User) and a OI (Owner) Interface.
+                    Application that allows users to simulate onliine shopping, acting as both a UI (User) and a OI (Owner) Interface.
                     </span>
                 </div>
 
