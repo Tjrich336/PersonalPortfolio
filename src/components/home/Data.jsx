@@ -12,7 +12,7 @@ const Data = () => {
         <h1 className="home__title">
           {showName && <span className="animated-text">Trevor Richardson</span>}
         </h1>
-            <h3 className="home__subtitle">Software Engineer</h3>
+            <h3 className="home__subtitle">SWE, UI/UX, DBA</h3>
             <p className="home__description">Undergraduate student at the University of North Carolina at Charlotte: 
             B.S Computer Science, with a concentration in Software Engineering</p>
 
