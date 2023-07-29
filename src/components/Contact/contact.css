@@ -36,7 +36,7 @@
   }
   
   .send__button {
-    display:block;
+    display: block;
     width: 40%;
     padding: 10px;
     background-color: #333;
@@ -82,3 +82,20 @@
     font-size: 1.25rem;
     color: var(--title-color);
   }
+
+/* ===================== BREAKPOINTS ===================== */
+
+/*        Mobile Devices      */
+@media screen and (max-width: 768px) {
+  .form {
+      width: 350px;
+  }
+
+  .send__button {
+    width: max-content;
+  }
+
+  .home__scroll-up {
+    display: none;
+  }
+}

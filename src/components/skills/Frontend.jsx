@@ -48,4 +48,4 @@ const Frontend = () => {
   )
 }
 
-export default Frontend
+export default Frontend;

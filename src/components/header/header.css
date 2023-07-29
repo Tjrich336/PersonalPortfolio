@@ -32,7 +32,7 @@
     align-items: center;
     font-size: var(--small-font-size);
     color: white;
-    font-weight: var(--font-medium);
+    font-weight: bold;
     transition: 0.3s;
 }
 
@@ -43,7 +43,6 @@
 }
 
 /* Active Link */
-
 .active-link,
 .nav__link:hover {
     color: rgb(210, 63, 93);
@@ -51,23 +50,19 @@
 
 /* ===================== BREAKPOINTS ===================== */
 
-/*   For Medium Devices   */
+/*   For Mobile Devices   */
 @media screen and (max-width: 768px) {
     .header {
         top: initial;
-        bottom: 0;
-    }
-
-    .nav {
-        height: var(--header-height);
     }
 
     .nav__menu {
         position: fixed;
-        bottom: -100%;
+        height: max-content;
+        bottom: 100%;
         left: 0;
         width: 100%;
-        background-color: var(--body-color);
+        background-color: rgb(210, 63, 93);
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
@@ -75,15 +70,15 @@
     }
 
     /* Show Menu */
-
     .show-menu {
-        bottom: 0;
+        top: 0;
     }
 
     .nav__list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
+        margin-bottom: -3rem;
     }
 
     .van__icon {
@@ -93,14 +88,10 @@
     .nav__close {
         position: absolute;
         right: 1.3rem;
-        bottom: 0.5rem;
+        bottom: 1rem;
         font-size: 1.5rem;
         cursor: pointer;
-        color: var(--title-color);
-    }
-
-    .nav__close:hover {
-        color: var(--title-color-dark);
+        color: rgb(28, 28, 28);
     }
 
     .nav__toggle {
@@ -114,17 +105,3 @@
         display: block;
     }
 }
-
-/*   For Small Devices   */
-@media screen and (max-width: 350px) {
-    .nav__menu {
-        padding: 2rem 0.25rem 4rem;
-    }
-
-    .nav__list {
-        column-gap: 0;
-    }
-}
-
-
-

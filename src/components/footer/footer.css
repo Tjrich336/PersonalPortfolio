@@ -30,3 +30,22 @@
   .footer__links a:hover {
     color: rgb(210,63,93);
   }  
+
+/* ===================== BREAKPOINTS ===================== */
+
+/*        Mobile Devices      */
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-bottom: -3rem;
+    height: 5rem;
+    width: max-content;
+  }
+  .footer p {
+    font-size: smaller;
+    display: wrap;
+  }
+
+  .footer__links a {
+    color: rgb(210,63,93);
+  }
+}
