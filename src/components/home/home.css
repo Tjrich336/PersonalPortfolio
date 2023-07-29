@@ -86,6 +86,7 @@
     color: rgb(210, 63, 93);
     display: block;
     text-align: center;
+    font-weight: bold;
 }
 
 .home__subtitle::before {
