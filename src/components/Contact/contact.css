@@ -85,6 +85,24 @@
 
 /* ===================== BREAKPOINTS ===================== */
 
+/*      Tablet Devices      */
+@media screen and (min-width: 476px) and (max-width:999px) {
+  .form {
+    margin-right: -9.5rem;
+    margin-left: 9.5rem;
+  }
+
+  .call-to-action {
+    margin-right: -9.5rem;
+    margin-left: 9.5rem;
+  }
+
+  .home__scroll-up {
+    margin-right: -9.5rem;
+    margin-left: 9.5rem;
+  }
+}
+
 /*        Mobile Devices      */
 @media screen and (max-width: 475px) {
   .form {

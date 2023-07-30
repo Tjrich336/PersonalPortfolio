@@ -68,6 +68,18 @@
 
 /* ===================== BREAKPOINTS ===================== */
 
+/*      Tablet Devices      */
+@media screen and (min-width: 476px) and (max-width:999px) {
+    .portfolio__container {
+        grid-template-columns: repeat(1, 350px);
+        column-gap: 3rem;
+        justify-content: center;
+        margin-right: -9.5rem;
+        margin-left: 9.5rem;
+        margin-bottom: -1rem;
+    }
+}
+
 /*        Mobile Devices      */
 @media screen and (max-width: 475px) {
     .portfolio__container {

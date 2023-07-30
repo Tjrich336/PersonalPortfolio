@@ -178,9 +178,33 @@
 
 /* ===================== BREAKPOINTS ===================== */
 
-@media screen and (min-width: 476px) and (max-width: 1189px) {
+/*      M Laptop Devices       */
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
     
 }
+
+/*      Tablet Devices      */
+@media screen and (min-width: 476px) and (max-width:999px) {
+    .home__container {
+        margin-right: -10rem;
+    }
+
+    .home__img {
+        box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+        width: 200px;
+        height: 200px;
+    }
+
+    .home__scroll {
+        display: none;
+    }
+
+    .home__social {
+        display: inline-flex;
+        flex-direction: column;
+    }
+}
+
   
 /*      Mobile Devices      */
 @media screen and (max-width: 475px) {

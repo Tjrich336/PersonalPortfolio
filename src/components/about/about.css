@@ -65,6 +65,12 @@
     color: rgb(210, 63, 93);
 }
 
+.about__title2 {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    color: rgb(210, 63, 93);
+}
+
 .about__subtitle {
     font-size: var(--tiny-font-size);
 }
@@ -85,10 +91,29 @@
 
 /* ===================== BREAKPOINTS ===================== */
 
+/*      Tablet Devices      */
+@media screen and (min-width: 476px) and (max-width:999px) {
+    .about__img {
+        width: 200px;
+        height: 200px;
+        box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+        margin-left: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .about__info {
+        margin-right: 2rem;
+    }
+}
+
 /*        Mobile Devices      */
 @media screen and (max-width: 475px) {
     .about__container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about__container .about__title {
+        font-size: xx-large;
     }
     
     .about__img {
