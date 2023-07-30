@@ -69,7 +69,7 @@
 /* ===================== BREAKPOINTS ===================== */
 
 /*        Mobile Devices      */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 475px) {
     .portfolio__container {
         grid-template-columns: repeat(1, 350px);
         column-gap: 3rem;

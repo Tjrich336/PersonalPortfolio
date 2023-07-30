@@ -86,7 +86,7 @@
 /* ===================== BREAKPOINTS ===================== */
 
 /*        Mobile Devices      */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 475px) {
     .about__container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -94,6 +94,7 @@
     .about__img {
         width: 200px;
         height: 200px;
+        box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
     }
 
     .about__info {

@@ -61,24 +61,13 @@
     }
   }
   
-  /*   For Medium Devices   */
-  @media screen and (max-width: 576px) {
+  /*        For Mobile Devices      */
+  @media screen and (max-width: 475px) {
     .skills__container {
         grid-template-columns: 1fr;
     }
 
     .skills__content {
         padding: 1.5rem;
-    }
-  }
-  
-  /*   For Small Devices   */
-  @media screen and (max-width: 350px) {
-    .skills__box {
-        column-gap: 1.25rem;
-    }
-
-    .skills__name {
-        font-size: var(--small-font-size);
     }
   }
