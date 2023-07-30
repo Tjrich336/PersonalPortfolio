@@ -178,13 +178,8 @@
 
 /* ===================== BREAKPOINTS ===================== */
 
-/*      M Laptop Devices       */
-@media screen and (min-width: 1000px) and (max-width: 1500px) {
-    
-}
-
 /*      Tablet Devices      */
-@media screen and (min-width: 476px) and (max-width:999px) {
+@media screen and (min-width: 476px) and (max-width: 999px) {
     .home__container {
         margin-right: -10rem;
     }
