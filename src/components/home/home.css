@@ -178,12 +178,7 @@
 
 /* ===================== BREAKPOINTS ===================== */
 
-/*      Tablet Devices      */
-@media screen and (min-width: 1033px) and (max-width: 1360px) {
-    
-}
-
-@media screen and (min-width: 476px) and (max-width: 1032px) {
+@media screen and (min-width: 476px) and (max-width: 1189px) {
     
 }
   
