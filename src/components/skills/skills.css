@@ -58,8 +58,7 @@
 @media screen and (min-width: 476px) and (max-width:999px) {
     .skills__container {
         grid-template-columns: 2,1fr;
-        margin-left: 12.5rem;
-        margin-right: -8.5rem;
+        margin-right: -22.5rem;
     }
 
     .skills__content {

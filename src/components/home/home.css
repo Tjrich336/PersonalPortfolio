@@ -181,7 +181,7 @@
 /*      Tablet Devices      */
 @media screen and (min-width: 476px) and (max-width: 999px) {
     .home__container {
-        margin-right: -10rem;
+        margin-right: -25rem;
     }
 
     .home__img {

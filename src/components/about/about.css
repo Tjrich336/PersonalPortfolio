@@ -93,6 +93,10 @@
 
 /*      Tablet Devices      */
 @media screen and (min-width: 476px) and (max-width:999px) {
+    .about__container {
+        margin-right: -20rem;
+    }
+
     .about__img {
         width: 200px;
         height: 200px;
