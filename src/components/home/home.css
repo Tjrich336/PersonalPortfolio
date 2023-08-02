@@ -247,6 +247,11 @@
         width: 30px;
     }
 
+    .home__description {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
     .home__scroll {
         display: none;
     }

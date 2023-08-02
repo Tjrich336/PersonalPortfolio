@@ -97,6 +97,11 @@
     .nav__toggle {
         font-size: 1.1rem;
         cursor: pointer;
+        margin-right: 1rem;
+    }
+
+    .nav__logo {
+        margin-left: 1rem;
     }
 
     .nav__icon,

@@ -127,4 +127,9 @@
         gap: 0.5rem;
         margin-bottom: var(--mb-2);
     }
+
+    .about__description {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
   }
