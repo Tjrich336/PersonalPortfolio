@@ -1,10 +1,11 @@
 import React from 'react';
 import EmployeeData from "../../assets/DataBlock.jpeg";
+import EmployeeDIMS from "../../assets/Employee DIMS_ Team 16 Presentation.pdf";
 
 const Project1 = () => {
   return (
     <div className="project__content">
-        <h3 className="project__title">Employee Database</h3>
+        <h3 className="project__title">Employee DIMS </h3>
         <img src={EmployeeData} alt="" className="project__img-data" />
 
         <div className="project__box">
@@ -20,6 +21,9 @@ const Project1 = () => {
                 </div>
             </div>
         </div>
+        <a download="" href={EmployeeDIMS} className="button-learnMore">
+               Learn More
+        </a>
     </div>
   )
 }

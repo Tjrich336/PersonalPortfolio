@@ -21,6 +21,9 @@ const Project2 = () => {
                 </div>
             </div>
         </div>
+        <a href="#contact" className="button-learnMore">
+               Learn More
+        </a>
     </div>
   )
 }

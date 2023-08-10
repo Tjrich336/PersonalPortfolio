@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__content">
-        <p>&copy; {currentYear} Created By Trevor Richardson, All rights reserved.</p>
+        <p>&copy; {currentYear} Designed & developed by Trevor Richardson, all rights reserved.</p>
         <div className="footer__links">
         <a
         href="https://www.linkedin.com/in/trevv/"
