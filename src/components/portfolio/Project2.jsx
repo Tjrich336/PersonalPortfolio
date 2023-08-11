@@ -21,7 +21,7 @@ const Project2 = () => {
                 </div>
             </div>
         </div>
-        <a href="#contact" className="button-learnMore">
+        <a href="https://www.trackmymacros.com" className="button-learnMore">
                Learn More
         </a>
     </div>
