@@ -4,10 +4,39 @@
     column-gap: 4rem;
 }
 
+.about__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
 .about__img {
-    width: 325px;
-    border-radius: 1.5rem;
+    background: url(../../assets/Memoji-Ponder.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
     justify-self: center;
+    order: 0;
+    width: 300px;
+    height: 300px;
+    animation: profile__animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes profile__animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
 }
 
 .about__info {
@@ -17,7 +46,7 @@
 }
 
 .about__box {
-    background-color: var(--container-color);
+    background-color: rgb(28, 28, 28);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
@@ -26,13 +55,20 @@
 
 .about__icon {
     font-size: 1.5rem;
-    color: var(--title-color);
+    color: rgb(210, 63, 93);
     margin-bottom: var(--mb-0-5);
 }
 
 .about__title {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
+    color: rgb(210, 63, 93);
+}
+
+.about__title2 {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    color: rgb(210, 63, 93);
 }
 
 .about__subtitle {
@@ -40,55 +76,64 @@
 }
 
 .about__description {
-    padding: 0 4rem 0 0;
-    margin-bottom: var(--mb-2-5);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.button--flex-cv {
+    display: inline-flex;
+    background-color: rgb(28, 28, 28);
+    color: rgb(210, 63, 93);
+    justify-content: center;
 }
 
 /* ===================== BREAKPOINTS ===================== */
-/*   For Large Devices   */
 
-@media screen and (max-width: 992px) {
-   .about__container {
-    grid-template-columns: 1fr;
-    row-gap: 2.5rem;
-   }
+/*      Tablet Devices      */
+@media screen and (min-width: 476px) and (max-width:999px) {
+    .about__container {
+        margin-right: -20rem;
+    }
 
-   .about__img {
-    width: 220px;
-   }
+    .about__img {
+        width: 200px;
+        height: 200px;
+        box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+        margin-left: 2.5rem;
+        margin-bottom: 2rem;
+    }
 
-   .about__box {
-    padding: 0.75rem 0.5rem;
-   }
-
-   .about__data {
-    text-align: center;
-   }
-
-   .about__info {
-    justify-content: center;
-   }
-
-   .about__description {
-    padding: 0 5rem;
-    margin-bottom: 2rem;
-   }
-  }
-  
-  /*   For Medium Devices   */
-  @media screen and (max-width: 576px) {
     .about__info {
-        grid-template-columns: repeat(3, 1fr);
+        margin-right: 2rem;
+    }
+}
+
+/*        Mobile Devices      */
+@media screen and (max-width: 475px) {
+    .about__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about__container .about__title {
+        font-size: xx-large;
+    }
+    
+    .about__img {
+        width: 200px;
+        height: 200px;
+        box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+    }
+
+    .about__info {
+        grid-template-columns: repeat(3, 110px);
+        gap: 0.5rem;
+        margin-bottom: var(--mb-2);
     }
 
     .about__description {
-        padding: 0;
-    }
-  }
-  
-  /*   For Small Devices   */
-  @media screen and (max-width: 350px) {
-    .about__info {
-        grid-template-columns: repeat(2, 1fr);
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
   }

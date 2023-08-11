@@ -92,8 +92,8 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
-  color: var(--text-color);
+  background-color: #333;
+  color: white;
 }
 
 h1, h2, h3 {
@@ -128,18 +128,20 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: rgb(210, 63, 93) !important;
 }
 
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
+  color: rgb(210, 63, 93) !important;
 }
 
 .section__title,
 .section__subtitle {
   text-align: center;
+  color: rgb(210, 63, 93) !important;
 }
 
 /* ===================== LAYOUT ===================== */
@@ -180,50 +182,30 @@ img {
 }
 
 /* ===================== BREAKPOINTS ===================== */
-/*   For Large Devices   */
 
-@media screen and (max-width: 992px) {
-  .container {
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
-  }
-
-  .button {
-    padding: 1rem 1.75rem;
-  }
-
-  .button__icon {
-    width: 22px;
-    height: 22px;
-  }
-}
-
-/*   For Medium Devices   */
-@media screen and (max-width: 768px) {
-  body {
-    margin: 0 0 var(--header-height) 0;
-  }
-  .section {
-    padding: 2rem 0 4rem;
+/* For Tablet Devices */
+@media screen and (min-width: 476px) and (max-width: 999px) {
+  .section__title {
+    font-size: xx-large;
+    margin-left: 16.5rem;
+    margin-right: -16.5rem;
   }
 
   .section__subtitle {
-    margin-bottom: var(--mb-3);
+    font-size: medium;
+    margin-left: 16.5rem;
+    margin-right: -16.5rem;
   }
 }
 
-@media screen and (max-width: 576px) {
-}
 
-/*   For Small Devices   */
-@media screen and (max-width: 350px) {
-  :root {
-    --big-font-size: 2.25rem;
+/*   For Mobile Devices   */
+@media screen and (max-width: 475px) {
+  .section__title {
+    font-size: xx-large;
   }
 
-  .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
+  .section__subtitle {
+    font-size: medium;
   }
 }
-
