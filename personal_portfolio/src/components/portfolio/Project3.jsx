@@ -14,7 +14,7 @@ const Project3 = () => {
                 <div>
                     <h3 className="project__name">Backend (Java)</h3>
                     <span className="project__description">
-                    Application that allows users to simulate onliine shopping, acting as both a UI (User) and a OI (Owner) interface.
+                    Application that allows users to simulate online shopping, acting as both a UI (User) and a OI (Owner) interface.
                     </span>
                 </div>
 
