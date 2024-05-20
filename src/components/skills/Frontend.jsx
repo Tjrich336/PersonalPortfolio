@@ -11,7 +11,8 @@ const Frontend = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">JavaScript</h3>
+                    <h3 className="skills__name">HTML</h3>
+                    <span className="skills__level">Proficient</span>
                 </div>
                 </div>
 
@@ -19,7 +20,17 @@ const Frontend = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">TypeScript</h3>
+                    <h3 className="skills__name">CSS</h3>
+                    <span className="skills__level">Proficient</span>
+                </div>
+                </div>
+
+                <div className="skills__data">
+                <i class='bx bx-badge-check'></i>
+
+                <div>
+                    <h3 className="skills__name">JavaScript</h3>
+                    <span className="skills__level">Competent</span>
                 </div>
                 </div>
 
@@ -28,30 +39,7 @@ const Frontend = () => {
 
                 <div>
                     <h3 className="skills__name">React</h3>
-                </div>
-                </div>
-
-                <div className="skills__data">
-                <i class='bx bx-badge-check'></i>
-
-                <div>
-                    <h3 className="skills__name">Angular</h3>
-                </div>
-                </div>
-
-                <div className="skills__data">
-                <i class='bx bx-badge-check'></i>
-
-                <div>
-                    <h3 className="skills__name">HTML</h3>
-                </div>
-                </div>
-
-                <div className="skills__data">
-                <i class='bx bx-badge-check'></i>
-
-                <div>
-                    <h3 className="skills__name">CSS/SCSS</h3>
+                    <span className="skills__level">Competent</span>
                 </div>
                 </div>
             </div>
@@ -60,4 +48,4 @@ const Frontend = () => {
   )
 }
 
-export default Frontend;
+export default Frontend

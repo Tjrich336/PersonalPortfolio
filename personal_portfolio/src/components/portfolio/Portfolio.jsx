@@ -11,9 +11,9 @@ const Portfolio = () => {
         <span className="section__subtitle">Notable Projects</span>
 
         <div className="portfolio__container container grid">
-            <Project1 />
-            <Project2 />
             <Project3 />
+            <Project2 />
+            <Project1 />
         </div>
     </section>
   )

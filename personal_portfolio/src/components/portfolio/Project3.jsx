@@ -4,7 +4,7 @@ import EmployeeData from "../../assets/OnlineShop.png";
 const Project3 = () => {
   return (
     <div className="project__content">
-        <h3 className="project__title">Online Retail Store</h3>
+        <h3 className="project__title">Fiscalful</h3>
         <img src={EmployeeData} alt="" className="project__img" />
 
         <div className="project__box">
@@ -12,16 +12,16 @@ const Project3 = () => {
                 <div className="project__data">
 
                 <div>
-                    <h3 className="project__name">Backend (Java)</h3>
+                    <h3 className="project__name">Full-Stack (React + PLAID API)</h3>
                     <span className="project__description">
-                    Application that allows users to simulate online shopping, acting as both a UI (User) and a OI (Owner) interface.
+                    Responsive website that allows users to link their bank account and create a personal budget plan and chat with an AI assistant.
                     </span>
                 </div>
 
                 </div>
             </div>
         </div>
-        <a href="https://github.com/Tjrich336/RetailStore" className="button-learnMore">
+        <a href="https://github.com/Tjrich336/Fiscalful" className="button-learnMore">
                Learn More
         </a>
     </div>
