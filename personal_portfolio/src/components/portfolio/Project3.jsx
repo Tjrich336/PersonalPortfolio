@@ -21,7 +21,7 @@ const Project3 = () => {
                 </div>
             </div>
         </div>
-        <a href="https://github.com/Tjrich336/Fiscalful" className="button-learnMore">
+        <a href="https://thefiscalful.com" className="button-learnMore">
                Learn More
         </a>
     </div>
